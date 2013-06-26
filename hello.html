@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+        <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+        <meta http-equiv="Content-Style-Type" content="text/css"> 
+            <title>Health</title>
+            <style type="text/css"> 
+                @media screen and (min-width:481px)
+                {    
+                    p.p3 {margin:0 auto;font-family:Helvetica; color:#000000; font-size:32px;
+                          text-align:center;}
+                    html {-webkit-text-size-adjust: 100%;    -ms-text-size-adjust: 100%;text-size-adjust: 100%;  }
+                    form.motherreg{font-family:Helvetica; color:#000000; font-size:32px;
+                                   text-align:center;}
+                    input{line-height:3em; width:300px; font-size:20px}
+                    #register{height:80px; font-weight:bold; font-size:32px}
+                }
+                @media screen and (max-width:480px)
+                {
+                    p.p3 {margin:0 auto;font-family:Helvetica; color:#000000; font-size:16px;
+                          text-align:center;}
+                    html {-webkit-text-size-adjust: 100%;    -ms-text-size-adjust: 100%;text-size-adjust: 100%;  }
+                    form.motherreg{font-family:Helvetica; color:#000000; font-size:16px;
+                                   text-align:center;}
+                }
+
+            </style> 
+
+            </script>
+    </head>
+
+
+    <body style="height: 480px;background-color:rgb(208,212,218);align='center'">
+        <div id="page_wrapper">
+            <br />
+            <p class="p3"><b>Hello PhoneGap</b></p>
+
+            <form class="motherreg" action="MobileHealth/AddChild.jsf" method="post">
+                <br/>
+                <table align="center" cellspacing="20">
+                    <tr>    
+                        <td align="right">First Name:</td>
+                        <td align="left"><input name="firstName" type="text" autofocus="autofocus" placeholder="First Name" value="" required="required"/>        <br></td>
+                    </tr>
+                    <tr>
+                        <td align="right">Last Name:</td>
+                        <td align="left"><input type="text" name="lastName" placeholder="Last Name" required="required"></td>
+                    </tr>
+                    <tr>
+                        <td align="right">Mother National Id:</td>
+                        <td align="left"> <input type="text" name="cnic" placeholder="Mother National Id" required="required"></td>
+                    </tr>
+                    <tr>
+                        <td align="right">Date of Birth:</td>
+                        <td align="left"><input type="date" name="dateOfBirth" required="required"></td>
+                    </tr>
+                    <tr>
+                        <td align="right">Place of Birth:</td>
+                        <td align="left"><input type="text" name="birthPlace" placeholder="Place of Birth" required="required"></td>
+                    </tr>
+                    <tr>
+                        <td align="right">Gender:</td>
+                        <td align="left">
+                            <input style="width:20px" type="radio" name="gender" value="Male" required="required">Male
+                                <input style="width:20px" type="radio" name="gender" value="Female" required="required">Female
+                                    <input style="width:20px" type="radio" name="gender" value="Unknown" required="required">Unknown
+                                        </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2"><input type="submit" id="register" name="register"/></td>
+                                        </tr>
+                                        </table>
+                                        </form>
+                                        <br/>       
+
+
+
+                                        </div>
+                                        </body>
+                                        </html>
+
